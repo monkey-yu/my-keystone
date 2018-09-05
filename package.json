@@ -1,0 +1,18 @@
+{
+  "name": "my-keystone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "keystone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node keystone.js"
+  },
+  "author": "zhaoyu <zhao_yu0101@wuxiapptec.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "csv": "^3.1.0",
+    "keystone": "^4.0.0",
+    "lodash": "^4.17.10"
+  }
+}
