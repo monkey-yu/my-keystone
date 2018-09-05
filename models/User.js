@@ -1,5 +1,4 @@
 var keystone = require('keystone');
-
 var User = new keystone.List('User');
 
 User.add({
