@@ -6,6 +6,8 @@ var routes = {
 };
 
 exports = module.exports = function(app){
-    app.get('/',routes.views.index)
+    app.get('/',routes.views.index),
+    app.get('/report',routes.views.report),
+    app.get('/add-event', routes.views.addEvent)
 };
 

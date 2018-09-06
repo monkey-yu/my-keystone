@@ -4,9 +4,9 @@ var User = keystone.list('User');
 exports.create = {
   User: [
     {
-      displayName: 'zhaoyu',
-      email: 'demo@keystonejs.com',
-      password: 'demo',
-    },
+      name: 'zhaoyu', 
+      email: 'zhaoyu@keystone.com',
+      password: 'zhaoyu01', 
+    }, 
   ], 
 };

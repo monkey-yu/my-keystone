@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title= "Words on a page"
+  body
+    h1 welcome to report!
+    //- p #{reports.name}
+    p #{reports[0].content.title1}
+    span #{reports[0].content.desc1}
+    p #{reports[0].content.title2}
+    span #{reports[0].content.desc2}
+    p #{reports[0].content.title3}
+    span #{reports[0].content.desc3}
+    //- p #{reports[0].conclusion} 
