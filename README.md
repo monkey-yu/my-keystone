@@ -23,6 +23,8 @@ my keystone created
 切记：每次启动项目前，先启动mongodb . 命令：sudo mongod .
 
 使用maongodb ,建议本地安装可视化工具 Robomongo 3T。
+前端访问地址： http://0.0.0.0:3000
+后端访问地址： http://0.0.0.0:3000/keystone 
 
 参考链接：https://v4.keystonejs.com/getting-started/setting-up/part-1/
 
